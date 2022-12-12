@@ -1,0 +1,99 @@
+/* Universal CSS */
+.logo  {
+    font-size: 30px;
+}
+
+.fat-text{
+    font-weight: 600;
+}
+
+.yellow  {
+    color:#f2b01e;
+}
+
+.blue  {
+    color: #0d6efd;
+}
+
+.short-text  {
+    font-size: 14px;
+}
+
+/* Navbar CSS */
+.navbar-collapse  {
+    flex-grow: 0 !important;
+}
+.new-badge  {
+    margin-top: -15px;
+    font-size: 9px;
+}
+
+.nav-link  {
+    color: black;
+}
+
+.navbar__hamburger  {
+    border-color: black;
+}
+
+.breadcrumb-item  {
+    font-size: 15px;
+}
+
+/* Product section CSS */
+.product__image  {
+    min-width: 400px;
+    max-width: 500px;
+    width: 50%;
+}
+
+.product__description{
+    min-width: 250px;
+}
+
+.nav-link.active  {
+    border: 0;
+    border-bottom: 2px solid #0d6efd !important;
+    color: #0d6efd !important;
+}
+
+/* Features section */
+.features__part  {
+    min-width: 280px;
+}
+
+/* Footer CSS */
+.footer  {
+    background-color: #1b1d26;
+    color: white;
+}
+
+.footer__part  {
+    margin: 5rem 0;
+}
+
+.footer__lists  {
+    list-style: none;
+}
+
+.footer__spans  {
+    max-width: 230px;
+}
+
+.footer__part a  {
+    color: white;
+}
+
+.signupinp  {
+    height: 50px;
+    width: 180px;
+}
+
+.signupinp  {
+    background-color: #262831;
+}
+
+.btn--transparent  {
+    background-color: #262831;
+    color: white;
+}
