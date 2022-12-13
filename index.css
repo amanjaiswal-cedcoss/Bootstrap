@@ -20,7 +20,7 @@
 }
 
 /* Navbar CSS */
-.navbar-collapse  {
+.mainnav__coldiv  {
     flex-grow: 0 !important;
 }
 .new-badge  {
@@ -28,30 +28,29 @@
     font-size: 9px;
 }
 
-.nav-link  {
+.mainnav__coldiv__listitems  {
     color: black;
 }
 
-.navbar__hamburger  {
+.mainnav__hamburger  {
     border-color: black;
 }
 
-.breadcrumb-item  {
+.breadcrumbnav__listitems  {
     font-size: 15px;
 }
 
 /* Product section CSS */
 .product__image  {
-    min-width: 400px;
-    max-width: 500px;
-    width: 50%;
+    min-width: 350px;
+    max-width: 700px;
 }
 
 .product__description{
     min-width: 250px;
 }
 
-.nav-link.active  {
+.product__tabbtns.active  {
     border: 0;
     border-bottom: 2px solid #0d6efd !important;
     color: #0d6efd !important;
